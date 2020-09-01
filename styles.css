@@ -142,7 +142,7 @@ img
 
 .projectContainer:hover .overlay
 {
-    width: 35%;
+    width: 40%;
 }
 
 @media (max-width: 800px)
@@ -176,5 +176,13 @@ img
     .sidebar-bottom
     {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .projectContainer:hover .overlay
+    {
+        width: 100%;
     }
 }
